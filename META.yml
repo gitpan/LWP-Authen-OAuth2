@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               LWP-Authen-OAuth2
-version:            0.01
+version:            0.02
 abstract:           Make requests to OAuth2 APIs.
 author:
     - Ben Tilly <btilly@gmail.com>
