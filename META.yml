@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               LWP-Authen-OAuth2
-version:            0.02
+version:            0.03
 abstract:           Make requests to OAuth2 APIs.
 author:
     - Ben Tilly <btilly@gmail.com>
@@ -11,9 +11,11 @@ configure_requires:
 build_requires:
     Test::More:  0
 requires:
-    LWP::UserAgent:  4
-    Mozilla::CA:     20000101
-    perl:            5.006
+    JSON:                 2
+    LWP:                  4
+    LWP::Protocol::https:  6
+    Mozilla::CA:          20000101
+    perl:                 5.006
 no_index:
     directory:
         - t
