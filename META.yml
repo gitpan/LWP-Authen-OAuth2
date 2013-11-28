@@ -1,26 +1,27 @@
---- #YAML:1.0
-name:               LWP-Authen-OAuth2
-version:            0.05
-abstract:           Make requests to OAuth2 APIs.
+---
+abstract: 'Make requests to OAuth2 APIs.'
 author:
-    - Ben Tilly <btilly@gmail.com>
-license:            Artistic_2_0
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Ben Tilly <btilly@gmail.com>'
 build_requires:
-    Test::More:  0
-requires:
-    JSON:                 2
-    LWP:                  4
-    LWP::Protocol::https:  6
-    Mozilla::CA:          20000101
-    perl:                 5.006
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.8, CPAN::Meta::Converter version 2.131560'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: LWP-Authen-OAuth2
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  JSON: 2
+  LWP: 4
+  LWP::Protocol::https: 6
+  Module::Load: 0
+  Mozilla::CA: 20000101
+  perl: 5.006
+version: 0.06

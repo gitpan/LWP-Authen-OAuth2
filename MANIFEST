@@ -19,4 +19,5 @@ t/LWP/Authen/OAuth2/ServiceProvider.t
 t/LWP/Authen/OAuth2/ServiceProvider/Google.t
 t/manifest.t
 t/pod.t
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
