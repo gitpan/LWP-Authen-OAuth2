@@ -24,4 +24,4 @@ requires:
   Module::Load: '0'
   Mozilla::CA: '20000101'
   perl: '5.006'
-version: '0.08'
+version: '0.09'
